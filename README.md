@@ -45,3 +45,15 @@ The **Our Purpose** tab now fully matches the approved T001 purpose PDF, includi
 - the full Stage 4 agent capabilities,
 - the personal wording for Stage 1, and
 - the active learner wording for Stage 3.
+
+
+## Version 1.3 update
+
+- Added a new opening **Value Proposition** tab.
+- Prominently features the core promise: “AI Café helps curious learners understand, experiment with, and build using AI—step by step, without fear, until they can work with it independently.”
+- Added six learner benefits and a clear learner-transformation path.
+
+### Version 1.4 — Scroll-docked navigation
+- The full tab layout remains visible at the beginning of the page.
+- After scrolling past it, the tabs become a fixed, vertically stacked navigation rail on the left.
+- On mobile, the rail becomes a compact rotated slide-out column with a `Tabs` handle.
