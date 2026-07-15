@@ -57,3 +57,4 @@ The **Our Purpose** tab now fully matches the approved T001 purpose PDF, includi
 - The full tab layout remains visible at the beginning of the page.
 - After scrolling past it, the tabs become a fixed, vertically stacked navigation rail on the left.
 - On mobile, the rail becomes a compact rotated slide-out column with a `Tabs` handle.
+-Adding a small line to track "Write the one-line value proposition" seperatly in git hub push
