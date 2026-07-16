@@ -1,583 +1,167 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="AI Café project purpose and webpage blueprint." />
-  <title>AI Café | Project Purpose</title>
-  <link rel="stylesheet" href="css/styles.css?v=1.4" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="AI Café project purpose and webpage blueprint." name="description"/>
+<title>AI Café | Project Purpose</title>
+<link href="css/styles.css?v=1.7" rel="stylesheet"/>
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Skip to content</a>
-
-  <header class="hero">
-    <div class="hero__glow hero__glow--one"></div>
-    <div class="hero__glow hero__glow--two"></div>
-    <div class="container hero__content">
-      <div class="brand-mark" aria-label="AI Café logo placeholder">
-        <span class="brand-mark__cup">☕</span>
-        <span class="brand-mark__signal" aria-hidden="true"></span>
-      </div>
-      <p class="eyebrow">AI Café Mission Control · T001</p>
-      <h1>AI Café Project Purpose</h1>
-      <p class="hero__tagline">Learn. Explore. Experiment. Build.</p>
-      <p class="hero__intro">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="hero">
+<div class="hero__glow hero__glow--one"></div>
+<div class="hero__glow hero__glow--two"></div>
+<div class="container hero__content">
+<div aria-label="AI Café logo placeholder" class="brand-mark">
+<span class="brand-mark__cup">☕</span>
+<span aria-hidden="true" class="brand-mark__signal"></span>
+</div>
+<p class="eyebrow">AI Café Mission Control · T001</p>
+<h1>AI Café Project Purpose</h1>
+<p class="hero__tagline">Learn. Explore. Experiment. Build.</p>
+<p class="hero__intro">
         A shared reference for understanding why AI Café exists, what it aims to become,
         and how its purpose will be presented to the team.
       </p>
-      <div class="hero__actions">
-        <button class="btn btn--primary" data-scroll-target="#tabs">Explore the purpose</button>
-        <button class="btn btn--ghost" id="listen-full">Listen to full page</button>
-      </div>
-      <div class="meta-strip" aria-label="Project metadata">
-        <span><strong>Status:</strong> Confirmed</span>
-        <span><strong>Version:</strong> 1.3</span>
-        <span><strong>Updated:</strong> 16 July 2026</span>
-      </div>
-    </div>
-  </header>
+<div class="hero__actions">
+<button class="btn btn--primary" data-scroll-target="#tabs">Explore the purpose</button>
+<button class="btn btn--ghost" id="listen-full">Listen to full page</button>
+</div>
+<div aria-label="Project metadata" class="meta-strip">
+<span><strong>Status:</strong> Confirmed</span>
+<span><strong>Version:</strong> 1.7</span>
+<span><strong>Updated:</strong> 16 July 2026</span>
+</div>
+</div>
+</header>
+<main id="main-content">
+<section class="tabs-shell container" id="tabs">
+<div aria-label="T001 content" class="tabs" role="tablist">
 
-  <main id="main-content">
-    <section class="tabs-shell container" id="tabs">
-      <div class="tabs" role="tablist" aria-label="T001 content">
-        <button class="tab is-active" role="tab" aria-selected="true" aria-controls="value-panel" id="value-tab" data-tab="value-panel">
-          <span class="tab__desktop">Value Proposition</span>
-          <span class="tab__mobile">Value</span>
-        </button>
-        <button class="tab" role="tab" aria-selected="false" aria-controls="purpose-panel" id="purpose-tab" data-tab="purpose-panel">
-          <span class="tab__desktop">Our Purpose</span>
-          <span class="tab__mobile">Purpose</span>
-        </button>
-        <button class="tab" role="tab" aria-selected="false" aria-controls="learner-panel" id="learner-tab" data-tab="learner-panel">
-          <span class="tab__desktop">Primary Learner</span>
-          <span class="tab__mobile">Learner</span>
-        </button>
-        <button class="tab" role="tab" aria-selected="false" aria-controls="secondary-learner-panel" id="secondary-learner-tab" data-tab="secondary-learner-panel">
-          <span class="tab__desktop">Secondary Learner</span>
-          <span class="tab__mobile">Secondary</span>
-        </button>
-        <button class="tab" role="tab" aria-selected="false" aria-controls="blueprint-panel" id="blueprint-tab" data-tab="blueprint-panel">
-          <span class="tab__desktop">Page Blueprint</span>
-          <span class="tab__mobile">Blueprint</span>
-        </button>
-      </div>
 
-      <div class="audio-toolbar" aria-label="Audio controls">
-        <button class="audio-btn" id="listen-tab">▶ Listen to this tab</button>
-        <button class="audio-btn" id="pause-audio">⏸ Pause</button>
-        <button class="audio-btn" id="resume-audio">⏯ Resume</button>
-        <button class="audio-btn" id="restart-audio">↺ Restart</button>
-        <label class="speed-control">Speed
-          <select id="speech-rate" aria-label="Narration speed">
-            <option value="0.8">0.8×</option>
-            <option value="1" selected>1×</option>
-            <option value="1.2">1.2×</option>
-            <option value="1.5">1.5×</option>
-          </select>
-        </label>
-      </div>
 
-      <section class="tab-panel is-active" role="tabpanel" tabindex="0" id="value-panel" aria-labelledby="value-tab">
-        <article class="content-card narration-source">
-          <div class="section-heading">
-            <p class="section-number">Tab 01</p>
-            <h2>AI Café Value Proposition</h2>
-            <p>The clear value AI Café promises to every learner.</p>
-          </div>
 
-          <section class="value-hero" aria-labelledby="value-proposition-statement">
-            <p class="section-number">Our Core Promise</p>
-            <h3 id="value-proposition-statement">AI Café helps curious learners understand, experiment with, and build using AI—step by step, without fear, until they can work with it independently.</h3>
-          </section>
 
-          <section>
-            <h3>What this means for the learner</h3>
-            <div class="value-grid">
-              <article>
-                <span class="value-icon" aria-hidden="true">01</span>
-                <h4>Understand AI clearly</h4>
-                <p>Complex ideas are explained in simple, connected steps so learners understand not only what to do, but also why it works.</p>
-              </article>
-              <article>
-                <span class="value-icon" aria-hidden="true">02</span>
-                <h4>Experiment without fear</h4>
-                <p>Learners can try ideas, make mistakes, revisit concepts, and improve through a safe and encouraging learning environment.</p>
-              </article>
-              <article>
-                <span class="value-icon" aria-hidden="true">03</span>
-                <h4>See concepts in action</h4>
-                <p>Visual explanations, interactive demonstrations, worked examples, and prompt or code labs make abstract AI concepts tangible.</p>
-              </article>
-              <article>
-                <span class="value-icon" aria-hidden="true">04</span>
-                <h4>Build practical things</h4>
-                <p>Small exercises and real projects help learners convert knowledge into useful skills, solutions, and portfolio-ready work.</p>
-              </article>
-              <article>
-                <span class="value-icon" aria-hidden="true">05</span>
-                <h4>Learn in the way that suits them</h4>
-                <p><strong>My AI Journey</strong> offers a guided path, while <strong>My AI Playground</strong> supports free exploration, practice, and discovery.</p>
-              </article>
-              <article>
-                <span class="value-icon" aria-hidden="true">06</span>
-                <h4>Become confident and independent</h4>
-                <p>The goal is not permanent dependence on lessons or tools, but the ability to choose, evaluate, build, and work with AI independently.</p>
-              </article>
-            </div>
-          </section>
 
-          <section>
-            <h3>The transformation AI Café creates</h3>
-            <div class="transformation-path" aria-label="Learner transformation path">
-              <span>Curious learner</span>
-              <b aria-hidden="true">→</b>
-              <span>Clear understanding</span>
-              <b aria-hidden="true">→</b>
-              <span>Confident experimentation</span>
-              <b aria-hidden="true">→</b>
-              <span>Practical building</span>
-              <b aria-hidden="true">→</b>
-              <span>Independent AI practitioner</span>
-            </div>
-          </section>
+<button aria-controls="blueprint-panel" aria-selected="true" class="tab is-active" data-tab="blueprint-panel" id="blueprint-tab" role="tab">
+<span class="tab__desktop">How to Track the Task</span>
+<span class="tab__mobile">Track Task</span>
+</button><button aria-controls="purpose-panel" aria-selected="false" class="tab" data-tab="purpose-panel" id="purpose-tab" role="tab">
+<span class="tab__desktop">Our Purpose</span>
+<span class="tab__mobile">Purpose</span>
+</button><button aria-controls="learner-panel" aria-selected="false" class="tab" data-tab="learner-panel" id="learner-tab" role="tab">
+<span class="tab__desktop">Primary Learner</span>
+<span class="tab__mobile">Primary Learner</span>
+</button><button aria-controls="secondary-learner-panel" aria-selected="false" class="tab" data-tab="secondary-learner-panel" id="secondary-learner-tab" role="tab">
+<span class="tab__desktop">Secondary Learner</span>
+<span class="tab__mobile">Secondary Learner</span>
+</button><button aria-controls="value-panel" aria-selected="false" class="tab" data-tab="value-panel" id="value-tab" role="tab">
+<span class="tab__desktop">Value Proposition</span>
+<span class="tab__mobile">Value</span>
+</button><button aria-controls="release-one-panel" aria-selected="false" class="tab" data-tab="release-one-panel" id="release-one-tab" role="tab">
+<span class="tab__desktop">Release 1</span>
+<span class="tab__mobile">Release 1</span>
+</button><button aria-controls="release-one-exclusions-panel" aria-selected="false" class="tab" data-tab="release-one-exclusions-panel" id="release-one-exclusions-tab" role="tab">
+<span class="tab__desktop">Release 1 Exclusions</span>
+<span class="tab__mobile">R1 Exclusions</span>
+</button></div>
+<div aria-label="Audio controls" class="audio-toolbar">
+<button class="audio-btn" id="listen-tab">▶ Listen to this tab</button>
+<button class="audio-btn" id="pause-audio">⏸ Pause</button>
+<button class="audio-btn" id="resume-audio">⏯ Resume</button>
+<button class="audio-btn" id="restart-audio">↺ Restart</button>
+<label class="speed-control">Speed
+          <select aria-label="Narration speed" id="speech-rate">
+<option value="0.8">0.8×</option>
+<option selected="" value="1">1×</option>
+<option value="1.2">1.2×</option>
+<option value="1.5">1.5×</option>
+</select>
+</label>
+</div>
 
-          <section class="value-summary">
-            <h3>Why AI Café is different</h3>
-            <p>AI Café is not merely a course portal, a collection of articles, or a directory of AI tools. It brings together structured learning, open exploration, visual understanding, hands-on experimentation, practical creation, and gradual independence within one welcoming environment.</p>
-          </section>
-        </article>
-      </section>
 
-      <section class="tab-panel" role="tabpanel" tabindex="0" id="purpose-panel" aria-labelledby="purpose-tab" hidden>
-        <article class="content-card narration-source">
-          <div class="section-heading">
-            <p class="section-number">Tab 02</p>
-            <h2>Our Purpose</h2>
-            <p>Why AI Café exists and what it aims to become.</p>
-          </div>
 
-          <section>
-            <h3>The central idea</h3>
-            <p class="lead">AI Café should not begin as merely a website or an AI course portal.</p>
-            <p>It should begin as a personal AI learning and experimentation environment that can gradually become useful to a wider audience.</p>
-            <blockquote>AI Café helps a learner understand AI step by step, experiment without fear, build practical things, and gradually become capable of working with AI independently.</blockquote>
-          </section>
 
-          <section>
-            <h3>Why the word “Café” matters</h3>
-            <p>A café is not a formal classroom where everyone must follow the same rigid path. It is a comfortable place where someone can:</p>
-            <ul class="check-list">
-              <li>follow a guided learning journey,</li>
-              <li>explore topics freely,</li>
-              <li>revisit earlier concepts,</li>
-              <li>experiment with demos,</li>
-              <li>build small projects,</li>
-              <li>and eventually work with AI agents.</li>
-            </ul>
-          </section>
 
-          <section class="experience-grid">
-            <div class="experience-card">
-              <span class="experience-card__label">Structured</span>
-              <h3>My AI Journey</h3>
-              <p class="quote-line">“What should I learn next?”</p>
-              <p>A guided path that progressively connects:</p>
-              <p class="path-line">ML foundations → neural networks → text → tokens → embeddings → attention → transformers → prompting → RAG → tools → agents → real projects</p>
-            </div>
-            <div class="experience-card">
-              <span class="experience-card__label">Exploratory</span>
-              <h3>My AI Playground</h3>
-              <p class="quote-line">“What can I explore, practise, test, or revisit today?”</p>
-              <p>It can contain interactive demos, mini experiments, prompt labs, code examples, visual explanations, project sandboxes, reusable tools, and later, agentic workflows.</p>
-            </div>
-          </section>
 
-          <section>
-            <h3>Who AI Café is initially for</h3>
-            <p>The first learner is <strong>you</strong>.</p>
-            <p>This matters because the platform will be created from a genuine learning journey rather than from assumptions about learners.</p>
-            <ol class="number-list">
-              <li>Understand the subject.</li>
-              <li>Build or test the demonstration.</li>
-              <li>Identify where confusion occurs.</li>
-              <li>Improve the explanation.</li>
-              <li>Only then make it suitable for other learners.</li>
-            </ol>
-            <p>AI Café therefore becomes both your personal AI learning system and a future public learning product.</p>
-          </section>
-
-          <section>
-            <h3>What problem it should solve</h3>
-            <div class="problem-grid">
-              <div><strong>Problem 1</strong><p>Many learning resources are too theoretical and difficult to connect.</p></div>
-              <div><strong>Problem 2</strong><p>Others are tool-focused but do not explain what is happening underneath.</p></div>
-            </div>
-            <div class="flow-banner">Understand it → See it → Experiment with it → Build with it → Use it professionally</div>
-            <p>Every meaningful topic should eventually provide an intuitive explanation, a visual representation, a worked example, an interactive demonstration, a small exercise, practical limitations, and a connection to the next topic.</p>
-          </section>
-
-          <section>
-            <h3>Long-term vision</h3>
-            <div class="timeline">
-              <article><span>1</span><div><h4>Personal Learning Studio</h4><p>A structured place for your AI learning, notes, demonstrations, and experiments.</p></div></article>
-              <article><span>2</span><div><h4>Public Learning Experience</h4><p>A polished portal using My AI Journey and My AI Playground.</p></div></article>
-              <article><span>3</span><div><h4>Project and Career Studio</h4><p>Learners build portfolio projects, practical solutions, training material, and professional capabilities.</p></div></article>
-              <article><span>4</span><div><h4>Agentic Learning Environment</h4><p>AI agents help learners choose the next lesson, explain difficult topics, generate practice exercises, review code, track progress, recommend projects, and support independent learning.</p></div></article>
-            </div>
-            <p class="callout">The agent should not control the learning experience. It should follow the structure, rules, and purpose defined through AI Café Mission Control.</p>
-          </section>
-
-          <section class="proposed-purpose">
-            <p class="section-number">Proposed Purpose Statement</p>
-            <h3>AI Café is a welcoming, practical, and progressively structured AI learning studio where people can understand concepts, explore interactive demonstrations, build real solutions, and grow from curious learners into confident AI practitioners.</h3>
-          </section>
-
-          <section>
-            <h3>What T001 locks</h3>
-            <div class="principles-grid">
-              <article><h4>Learning before technology</h4><p>The website, animations, agents, and tools must support learning—not distract from it.</p></article>
-              <article><h4>Guided and exploratory learning together</h4><p>My AI Journey and My AI Playground are equally important.</p></article>
-              <article><h4>Simple first, deeper gradually</h4><p>A learner should be able to start easily and continue into serious technical depth.</p></article>
-              <article><h4>Practical demonstration</h4><p>AI Café should show how something works, not only describe it.</p></article>
-              <article><h4>Build manually before automating</h4><p>We first understand and define the work ourselves; agents take over only after the process is clear.</p></article>
-            </div>
-          </section>
-
-          <section class="purpose-statement">
-            <p class="section-number">Working Foundation</p>
-            <h3>AI Café is a personal-first, public-ready AI learning and experimentation studio that combines structured learning, open exploration, interactive demonstrations, real projects, and eventually agent-assisted learning.</h3>
-          </section>
-        </article>
-      </section>
-
-      <section class="tab-panel" role="tabpanel" tabindex="0" id="learner-panel" aria-labelledby="learner-tab" hidden>
-        <article class="content-card narration-source">
-          <div class="section-heading">
-            <p class="section-number">Tab 03 · T003</p>
-            <h2>Define the Primary Learner</h2>
-            <p>Who AI Café serves first, how that learner will learn, and how a personal journey can become a future public product.</p>
-          </div>
-
-          <section>
-            <h3>Who AI Café is initially for</h3>
-            <p class="lead">The first learner is <strong>you</strong>.</p>
-            <p>AI Café begins as your personal environment for learning, experimenting with, and gradually mastering artificial intelligence.</p>
-            <blockquote>The platform will be created from a genuine learning journey rather than from assumptions about what learners may need.</blockquote>
-          </section>
-
-          <section>
-            <h3>The learning and improvement cycle</h3>
-            <div class="learner-cycle" aria-label="Primary learner improvement cycle">
-              <article><span>1</span><div><h4>Understand</h4><p>Study the subject and connect it with earlier knowledge.</p></div></article>
-              <article><span>2</span><div><h4>Build or test</h4><p>Create or examine a practical demonstration.</p></div></article>
-              <article><span>3</span><div><h4>Find confusion</h4><p>Notice where ideas, terminology, mathematics, code, or flow become unclear.</p></div></article>
-              <article><span>4</span><div><h4>Improve</h4><p>Refine the explanation, example, visualisation, demonstration, or sequence.</p></div></article>
-              <article><span>5</span><div><h4>Share responsibly</h4><p>Only then make the learning experience suitable for other learners.</p></div></article>
-            </div>
-            <p class="flow-banner">Understand → Build or test → Identify confusion → Improve → Make useful for others</p>
-          </section>
-
-          <section>
-            <h3>The primary learner profile</h3>
-            <div class="principles-grid">
-              <article><h4>Experienced, but learning again</h4><p>Has technology or programming experience and is now connecting that foundation with modern AI.</p></article>
-              <article><h4>Practical and curious</h4><p>Wants to understand how things work, not merely operate ready-made tools.</p></article>
-              <article><h4>Comfortable revisiting foundations</h4><p>May need to return to mathematics, data, Python, machine learning, or software concepts without embarrassment.</p></article>
-              <article><h4>Learning toward independence</h4><p>Wants to understand, evaluate, build, modify, and eventually work with AI confidently.</p></article>
-            </div>
-          </section>
-
-          <section>
-            <h3>What this learner needs</h3>
-            <ul class="check-list two-column-list">
-              <li>step-by-step explanations,</li>
-              <li>simple language before deeper terminology,</li>
-              <li>visual representations,</li>
-              <li>working demonstrations,</li>
-              <li>source code and guided experiments,</li>
-              <li>real-world use cases,</li>
-              <li>connections to earlier topics,</li>
-              <li>space to pause and revisit,</li>
-              <li>small exercises and projects,</li>
-              <li>and a clear path toward independent application.</li>
-            </ul>
-            <p>AI Café should not force the learner into a single learning style. The same concept may need a simple explanation, a technical explanation, a picture, a demo, code, mathematics, or a real-world analogy.</p>
-          </section>
-
-          <section>
-            <h3>Confusion is design information</h3>
-            <p>Confusion is not treated as failure. It reveals where the learning experience needs improvement.</p>
-            <div class="question-grid">
-              <article>Which earlier concept is missing?</article>
-              <article>Is the explanation too abstract?</article>
-              <article>Would a visual or interactive demo help?</article>
-              <article>Was terminology introduced too early?</article>
-              <article>Is a simpler example needed first?</article>
-              <article>Should the topic be divided into smaller steps?</article>
-            </div>
-          </section>
-
-          <section>
-            <h3>Understanding before completion</h3>
-            <p>The goal is not merely to finish a page, topic, or course. A topic is meaningfully learned when the learner can:</p>
-            <ul class="check-list">
-              <li>explain it in their own words,</li>
-              <li>connect it with earlier knowledge,</li>
-              <li>understand why and where it is useful,</li>
-              <li>build or modify a demonstration,</li>
-              <li>recognise limitations and common failure points,</li>
-              <li>and apply the idea with decreasing dependence on guidance.</li>
-            </ul>
-          </section>
-
-          <section>
-            <h3>The practical learning pattern</h3>
-            <div class="learning-pattern">
-              <article><span>Learn</span><p>Understand the idea and its purpose.</p></article>
-              <article><span>Observe</span><p>See how it behaves through examples and visualisations.</p></article>
-              <article><span>Experiment</span><p>Change inputs, compare outcomes, and investigate failures.</p></article>
-              <article><span>Build</span><p>Create or adapt something that uses the concept.</p></article>
-            </div>
-            <p>AI Café should therefore combine explanations, visualisations, interactive demonstrations, coding experiments, guided exercises, mini projects, comparisons, quizzes, reflection points, and practical challenges.</p>
-          </section>
-
-          <section class="experience-grid">
-            <div class="experience-card">
-              <span class="experience-card__label">Guided mode</span>
-              <h3>My AI Journey</h3>
-              <p>Provides sequence, continuity, milestones, and an answer to “What should I learn next?”</p>
-            </div>
-            <div class="experience-card">
-              <span class="experience-card__label">Exploration mode</span>
-              <h3>My AI Playground</h3>
-              <p>Provides freedom to revisit concepts, test demos, compare ideas, practise, and build small projects.</p>
-            </div>
-          </section>
-
-          <section>
-            <h3>From one learner to many</h3>
-            <p>Although the first learner is you, the material can gradually become useful to experienced developers entering AI, technical trainers, career restarters, working professionals, beginners who need a guided sequence, and independent learners who want both structure and freedom.</p>
-            <p class="callout">AI Café should not try to serve every possible audience at the beginning. First make the journey genuinely useful for the primary learner; then generalise what works.</p>
-          </section>
-
-          <section>
-            <h3>The intended transformation</h3>
-            <div class="transformation">Confusion <span>→</span> Clarity <span>→</span> Experimentation <span>→</span> Capability <span>→</span> Independence</div>
-            <p>The desired outcome is not awareness of AI terminology. The learner should become able to understand, evaluate, build, and improve AI-based solutions.</p>
-          </section>
-
-          <section class="proposed-purpose">
-            <p class="section-number">Primary Learner Principle</p>
-            <h3>Learn it personally. Test it practically. Improve it honestly. Share it only when it becomes genuinely useful.</h3>
-          </section>
-
-          <section class="purpose-statement">
-            <p class="section-number">What this establishes</p>
-            <h3>AI Café is both your personal AI learning and experimentation system and a future public learning product shaped by a real learner’s journey.</h3>
-          </section>
-        </article>
-      </section>
-
-      <section class="tab-panel" role="tabpanel" tabindex="0" id="secondary-learner-panel" aria-labelledby="secondary-learner-tab" hidden>
-        <article class="content-card narration-source">
-          <div class="section-heading">
-            <p class="section-number">Tab 04 · T004</p>
-            <h2>Secondary Learner</h2>
-            <p>Who AI Café can support after the personal learning experience has been tested and improved.</p>
-          </div>
-
-          <section>
-            <h3>Who AI Café is eventually for</h3>
-            <p class="lead">The secondary learner is anyone who wants to understand and use AI but may not know where to begin.</p>
-            <p>AI Café will first be created through a genuine personal learning journey. Once a topic has been understood, tested, simplified, and improved, it can be adapted for other learners.</p>
-            <div class="principles-grid">
-              <article><h4>Beginner</h4><p>Exploring AI for the first time and needing a clear starting point.</p></article>
-              <article><h4>Working professional</h4><p>Trying to use AI effectively in a current role.</p></article>
-              <article><h4>Developer or trainer</h4><p>Moving into AI or needing practical explanations and demonstrations.</p></article>
-              <article><h4>Student, manager, or career changer</h4><p>Seeking practical understanding without unnecessary complexity.</p></article>
-            </div>
-          </section>
-
-          <section>
-            <h3>What this learner may be experiencing</h3>
-            <ul class="check-list two-column-list">
-              <li>knowing individual AI terms without seeing how they connect,</li>
-              <li>watching tutorials without building anything,</li>
-              <li>feeling overwhelmed by tools, courses, and rapid change,</li>
-              <li>understanding theory but struggling to apply it,</li>
-              <li>using AI tools without understanding what happens underneath,</li>
-              <li>being unsure where to start or what to learn next,</li>
-              <li>needing to revisit topics several times,</li>
-              <li>and fitting learning around work, family, or other responsibilities.</li>
-            </ul>
-            <blockquote>AI Café should make this learner feel that confusion is normal and that meaningful learning can happen gradually.</blockquote>
-          </section>
-
-          <section>
-            <h3>What the secondary learner needs</h3>
-            <div class="feature-grid">
-              <article>A clear starting point</article>
-              <article>Small, manageable learning steps</article>
-              <article>Plain-language explanations</article>
-              <article>Visual demonstrations</article>
-              <article>Practical experiments</article>
-              <article>Real-world examples</article>
-              <article>Freedom to revisit concepts</article>
-              <article>A path toward independent work</article>
-            </div>
-          </section>
-
-          <section class="experience-grid">
-            <div class="experience-card">
-              <span class="experience-card__label">Guided experience</span>
-              <h3>My AI Journey</h3>
-              <p>For learners who want a progressive sequence, connected concepts, exercises, projects, progress tracking, and a clear answer to “What should I learn next?”</p>
-            </div>
-            <div class="experience-card">
-              <span class="experience-card__label">Open experience</span>
-              <h3>My AI Playground</h3>
-              <p>For learners who want to open any topic, try demonstrations, compare approaches, revisit ideas, and explore according to curiosity or an immediate work need.</p>
-            </div>
-          </section>
-
-          <section>
-            <h3>From the primary learner to the secondary learner</h3>
-            <div class="learner-cycle" aria-label="Primary to secondary learner flow">
-              <article><span>1</span><div><h4>Learn personally</h4><p>Understand the subject through a real learning journey.</p></div></article>
-              <article><span>2</span><div><h4>Build or test</h4><p>Create a demonstration, example, or experiment.</p></div></article>
-              <article><span>3</span><div><h4>Find weak points</h4><p>Identify confusion, missing context, and unclear explanations.</p></div></article>
-              <article><span>4</span><div><h4>Improve the experience</h4><p>Refine the sequence, visuals, examples, and language.</p></div></article>
-              <article><span>5</span><div><h4>Adapt for others</h4><p>Make the proven learning experience useful to people with different backgrounds.</p></div></article>
-            </div>
-            <p class="flow-banner">Real learning → Practical testing → Honest improvement → Responsible sharing</p>
-          </section>
-
-          <section>
-            <h3>Different learners, different depths</h3>
-            <p>Every learner does not need the same level of detail. AI Café should support progressive depth so someone may choose to:</p>
-            <ul class="check-list two-column-list">
-              <li>understand the basic idea,</li>
-              <li>see a simple demonstration,</li>
-              <li>use an AI tool effectively,</li>
-              <li>understand the technical process,</li>
-              <li>build a working solution,</li>
-              <li>study production architecture,</li>
-              <li>or work with AI agents and automated workflows.</li>
-            </ul>
-          </section>
-
-          <section>
-            <h3>The desired learner transformation</h3>
-            <div class="transformation">Confusion <span>→</span> Clarity <span>→</span> Experimentation <span>→</span> Building <span>→</span> Independence</div>
-            <p>The objective is not merely to help someone finish lessons. The learner should gradually become able to ask better questions, select suitable tools, test AI-generated output, debug failures, improve solutions, and continue learning independently.</p>
-          </section>
-
-          <section>
-            <h3>Initial secondary learner priority</h3>
-            <p>AI Café should not attempt to serve every possible learner from the beginning. The first public learner should closely resemble the primary learner:</p>
-            <ul class="check-list">
-              <li>some technology or professional experience,</li>
-              <li>an interest in practical AI,</li>
-              <li>a preference for step-by-step and visual learning,</li>
-              <li>a desire to connect concepts with useful projects,</li>
-              <li>and a willingness to experiment.</li>
-            </ul>
-            <p class="callout">Begin with one clearly defined learner group. Expand only after the core learning experience becomes stable and genuinely useful.</p>
-          </section>
-
-          <section class="proposed-purpose">
-            <p class="section-number">Secondary Learner Principle</p>
-            <h3>Respect the learner. Treat questions as valid, confusion as part of learning, repetition as useful, and practical understanding as more valuable than memorising terminology.</h3>
-          </section>
-
-          <section class="purpose-statement">
-            <p class="section-number">Working Definition</p>
-            <h3>The secondary learner is a curious beginner, professional, developer, trainer, student, manager, or career changer who wants to understand AI through clear explanations, guided learning, practical experimentation, and small real-world projects—until they can learn and work with AI increasingly independently.</h3>
-          </section>
-        </article>
-      </section>
-
-      <section class="tab-panel" role="tabpanel" tabindex="0" id="blueprint-panel" aria-labelledby="blueprint-tab" hidden>
-        <article class="content-card narration-source">
-          <div class="section-heading">
-            <p class="section-number">Tab 05</p>
-            <h2>Page Blueprint</h2>
-            <p>How the shared Project Purpose page will work.</p>
-          </div>
-
-          <section>
-            <h3>Revised objective of T001</h3>
-            <blockquote>Create a responsive AI Café Project Purpose webpage that becomes the shared reference point for the entire team.</blockquote>
-            <div class="feature-grid">
-              <article>GitHub Pages hosted</article>
-              <article>Mobile, tablet, and laptop friendly</article>
-              <article>Easy to revisit</article>
-              <article>Version-controlled</article>
-              <article>Clear to technical and non-technical readers</article>
-              <article>Supported by audio narration</article>
-            </div>
-          </section>
-
-          <section>
-            <h3>What the page should achieve</h3>
-            <ol class="number-list two-column-list">
-              <li>Explain what AI Café is.</li>
-              <li>Explain why it is being built.</li>
-              <li>Identify who it is for.</li>
-              <li>Describe the intended experience.</li>
-              <li>Clarify what AI Café is not.</li>
-              <li>Show how the project may grow.</li>
-              <li>Define the principles the team must follow.</li>
-              <li>Record what has been agreed and locked.</li>
-            </ol>
-            <p class="callout">This page acts as the constitution of the AI Café project.</p>
-          </section>
-
-          <section>
-            <h3>Recommended webpage structure</h3>
-            <div class="structure-list">
-              <article><span>01</span><div><h4>Opening Hero</h4><p>Logo, title, tagline, introduction, Listen button, project version, and last-updated date.</p></div></article>
-              <article><span>02</span><div><h4>Why AI Café Exists</h4><p>Connect understanding, visualisation, experimentation, building, and professional application.</p></div></article>
-              <article><span>03</span><div><h4>Who It Is For</h4><p>Personal-first today; public-ready for learners, professionals, trainers, developers, managers, students, and teams.</p></div></article>
-              <article><span>04</span><div><h4>Two Main Experiences</h4><p>My AI Journey and My AI Playground.</p></div></article>
-              <article><span>05</span><div><h4>What People Will Do</h4><p>Learn, interact, listen, practise, explore code, build, revisit, and track progress.</p></div></article>
-              <article><span>06</span><div><h4>AI Café Principles</h4><p>Decision rules for learning quality, accessibility, practical demonstrations, and future automation.</p></div></article>
-              <article><span>07</span><div><h4>What AI Café Is Not</h4><p>Not merely articles, videos, coding tutorials, a tools directory, a chatbot, or disconnected demonstrations.</p></div></article>
-              <article><span>08</span><div><h4>Long-Term Evolution</h4><p>Four phases from personal studio to agentic learning environment.</p></div></article>
-              <article><span>09</span><div><h4>Audio Experience</h4><p>Listen, pause, resume, restart, playback speed, section narration, and later a polished audio file.</p></div></article>
-              <article><span>10</span><div><h4>Team Reference</h4><p>Status, version, date, maintainer, repository, change history, Mission Control task, and next task.</p></div></article>
-            </div>
-          </section>
-
-          <section>
-            <h3>Experience and accessibility requirements</h3>
-            <div class="principles-grid">
-              <article><h4>Mobile-first</h4><p>Single-column layout, full-width tabs, comfortable touch targets, and readable text.</p></article>
-              <article><h4>Laptop-friendly</h4><p>Balanced content width, clear visual hierarchy, and sticky navigation.</p></article>
-              <article><h4>Audio-supported</h4><p>Each tab can be narrated independently, with optional full-page narration.</p></article>
-              <article><h4>Team-ready</h4><p>The page should make decisions visible, traceable, and easy to review.</p></article>
-            </div>
-          </section>
-
-          <section>
-            <h3>Final purpose statement for the webpage</h3>
-            <div class="final-copy">
-              <h4>AI Café Project Purpose</h4>
-              <p>AI Café is a personal-first, public-ready AI learning and experimentation environment.</p>
-              <p>It is being created to help people understand artificial intelligence step by step, explore concepts freely, interact with visual demonstrations, practise through meaningful activities, build real solutions, and gradually grow into confident AI practitioners.</p>
-              <p>AI Café combines two complementary experiences. <strong>My AI Journey</strong> provides a structured and progressive learning path for people who want guidance on what to learn next. <strong>My AI Playground</strong> provides an open environment where people can explore, experiment, revisit concepts, practise skills, interact with demonstrations, and build freely.</p>
-              <p>The project begins with a real personal learning journey, but it is being designed so that it can later support learners, trainers, professionals, developers, managers, students, and teams.</p>
-              <p>AI Café will not be limited to articles, videos, coding tutorials, demonstrations, or chatbots. It will connect understanding, visualisation, experimentation, practical building, and professional application within one coherent experience.</p>
-              <p>Every major learning experience should aim to be clear, practical, visually understandable, mobile-friendly, and accessible through both reading and audio.</p>
-              <p>The project will first establish its learning structure and working methods manually. Agentic capabilities will be introduced gradually after the purpose, workflows, and quality standards are clearly understood.</p>
-              <p>AI Café will evolve over time, but every future feature should continue to support its central goal:</p>
-              <p class="closing-line">To create a welcoming place where people can learn AI, explore it without fear, build with confidence, and continue growing at their own pace.</p>
-            </div>
-          </section>
-
-          <section>
-            <h3>GitHub-ready folder structure</h3>
-            <pre><code>T001-ai-cafe-project-purpose/
+<section aria-labelledby="blueprint-tab" class="tab-panel is-active" id="blueprint-panel" role="tabpanel" tabindex="0">
+<article class="content-card narration-source">
+<div class="section-heading">
+<p class="section-number">Tab 01</p>
+<h2>How to Track the Task</h2>
+<p>How this task and its agreed decisions are recorded, reviewed, and maintained.</p>
+</div><section class="tracking-summary"><h3>How this task is tracked</h3><ul class="check-list"><li>Keep the task number and title aligned with AI Café Mission Control.</li><li>Record each confirmed decision as a dedicated tab in the same logical sequence.</li><li>Update the page version and last-updated date whenever the agreed scope changes.</li><li>Commit the modified files to Git and push them to GitHub after review.</li><li>Treat this page as the shared reference for what has been agreed and locked.</li></ul></section>
+<section>
+<h3>Revised objective of T001</h3>
+<blockquote>Create a responsive AI Café Project Purpose webpage that becomes the shared reference point for the entire team.</blockquote>
+<div class="feature-grid">
+<article>GitHub Pages hosted</article>
+<article>Mobile, tablet, and laptop friendly</article>
+<article>Easy to revisit</article>
+<article>Version-controlled</article>
+<article>Clear to technical and non-technical readers</article>
+<article>Supported by audio narration</article>
+</div>
+</section>
+<section>
+<h3>What the page should achieve</h3>
+<ol class="number-list two-column-list">
+<li>Explain what AI Café is.</li>
+<li>Explain why it is being built.</li>
+<li>Identify who it is for.</li>
+<li>Describe the intended experience.</li>
+<li>Clarify what AI Café is not.</li>
+<li>Show how the project may grow.</li>
+<li>Define the principles the team must follow.</li>
+<li>Record what has been agreed and locked.</li>
+</ol>
+<p class="callout">This page acts as the constitution of the AI Café project.</p>
+</section>
+<section>
+<h3>Recommended webpage structure</h3>
+<div class="structure-list">
+<article><span>01</span><div><h4>Opening Hero</h4><p>Logo, title, tagline, introduction, Listen button, project version, and last-updated date.</p></div></article>
+<article><span>02</span><div><h4>Why AI Café Exists</h4><p>Connect understanding, visualisation, experimentation, building, and professional application.</p></div></article>
+<article><span>03</span><div><h4>Who It Is For</h4><p>Personal-first today; public-ready for learners, professionals, trainers, developers, managers, students, and teams.</p></div></article>
+<article><span>04</span><div><h4>Two Main Experiences</h4><p>My AI Journey and My AI Playground.</p></div></article>
+<article><span>05</span><div><h4>What People Will Do</h4><p>Learn, interact, listen, practise, explore code, build, revisit, and track progress.</p></div></article>
+<article><span>06</span><div><h4>AI Café Principles</h4><p>Decision rules for learning quality, accessibility, practical demonstrations, and future automation.</p></div></article>
+<article><span>07</span><div><h4>What AI Café Is Not</h4><p>Not merely articles, videos, coding tutorials, a tools directory, a chatbot, or disconnected demonstrations.</p></div></article>
+<article><span>08</span><div><h4>Long-Term Evolution</h4><p>Four phases from personal studio to agentic learning environment.</p></div></article>
+<article><span>09</span><div><h4>Audio Experience</h4><p>Listen, pause, resume, restart, playback speed, section narration, and later a polished audio file.</p></div></article>
+<article><span>10</span><div><h4>Team Reference</h4><p>Status, version, date, maintainer, repository, change history, Mission Control task, and next task.</p></div></article>
+</div>
+</section>
+<section>
+<h3>Experience and accessibility requirements</h3>
+<div class="principles-grid">
+<article><h4>Mobile-first</h4><p>Single-column layout, full-width tabs, comfortable touch targets, and readable text.</p></article>
+<article><h4>Laptop-friendly</h4><p>Balanced content width, clear visual hierarchy, and sticky navigation.</p></article>
+<article><h4>Audio-supported</h4><p>Each tab can be narrated independently, with optional full-page narration.</p></article>
+<article><h4>Team-ready</h4><p>The page should make decisions visible, traceable, and easy to review.</p></article>
+</div>
+</section>
+<section>
+<h3>Final purpose statement for the webpage</h3>
+<div class="final-copy">
+<h4>AI Café Project Purpose</h4>
+<p>AI Café is a personal-first, public-ready AI learning and experimentation environment.</p>
+<p>It is being created to help people understand artificial intelligence step by step, explore concepts freely, interact with visual demonstrations, practise through meaningful activities, build real solutions, and gradually grow into confident AI practitioners.</p>
+<p>AI Café combines two complementary experiences. <strong>My AI Journey</strong> provides a structured and progressive learning path for people who want guidance on what to learn next. <strong>My AI Playground</strong> provides an open environment where people can explore, experiment, revisit concepts, practise skills, interact with demonstrations, and build freely.</p>
+<p>The project begins with a real personal learning journey, but it is being designed so that it can later support learners, trainers, professionals, developers, managers, students, and teams.</p>
+<p>AI Café will not be limited to articles, videos, coding tutorials, demonstrations, or chatbots. It will connect understanding, visualisation, experimentation, practical building, and professional application within one coherent experience.</p>
+<p>Every major learning experience should aim to be clear, practical, visually understandable, mobile-friendly, and accessible through both reading and audio.</p>
+<p>The project will first establish its learning structure and working methods manually. Agentic capabilities will be introduced gradually after the purpose, workflows, and quality standards are clearly understood.</p>
+<p>AI Café will evolve over time, but every future feature should continue to support its central goal:</p>
+<p class="closing-line">To create a welcoming place where people can learn AI, explore it without fear, build with confidence, and continue growing at their own pace.</p>
+</div>
+</section>
+<section>
+<h3>GitHub-ready folder structure</h3>
+<pre><code>T001-ai-cafe-project-purpose/
 ├── index.html
 ├── css/
 │   └── styles.css
@@ -589,29 +173,484 @@
 │   ├── icons/
 │   └── audio/
 └── README.md</code></pre>
-          </section>
-        </article>
-      </section>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <p class="eyebrow">AI Café Mission Control</p>
-        <h2>T001 — AI Café Project Purpose</h2>
-      </div>
-      <div class="footer-meta">
-        <p><strong>Status:</strong> Confirmed</p>
-        <p><strong>Maintainer:</strong> AI Café Team</p>
-        <p><strong>Next:</strong> T002 — Create AI Café Logo</p>
-      </div>
-    </div>
-  </footer>
-
-  <div class="audio-status" id="audio-status" aria-live="polite">Audio ready</div>
-
-  <script src="js/app.js?v=1.4"></script>
-  <script src="js/audio.js"></script>
+</section>
+</article>
+</section><section aria-labelledby="purpose-tab" class="tab-panel" hidden="" id="purpose-panel" role="tabpanel" tabindex="0">
+<article class="content-card narration-source">
+<div class="section-heading">
+<p class="section-number">Tab 02</p>
+<h2>AI Café Project Purpose</h2>
+<p>Why AI Café exists and what it aims to become.</p>
+</div>
+<section>
+<h3>The central idea</h3>
+<p class="lead">AI Café should not begin as merely a website or an AI course portal.</p>
+<p>It should begin as a personal AI learning and experimentation environment that can gradually become useful to a wider audience.</p>
+<blockquote>AI Café helps a learner understand AI step by step, experiment without fear, build practical things, and gradually become capable of working with AI independently.</blockquote>
+</section>
+<section>
+<h3>Why the word “Café” matters</h3>
+<p>A café is not a formal classroom where everyone must follow the same rigid path. It is a comfortable place where someone can:</p>
+<ul class="check-list">
+<li>follow a guided learning journey,</li>
+<li>explore topics freely,</li>
+<li>revisit earlier concepts,</li>
+<li>experiment with demos,</li>
+<li>build small projects,</li>
+<li>and eventually work with AI agents.</li>
+</ul>
+</section>
+<section class="experience-grid">
+<div class="experience-card">
+<span class="experience-card__label">Structured</span>
+<h3>My AI Journey</h3>
+<p class="quote-line">“What should I learn next?”</p>
+<p>A guided path that progressively connects:</p>
+<p class="path-line">ML foundations → neural networks → text → tokens → embeddings → attention → transformers → prompting → RAG → tools → agents → real projects</p>
+</div>
+<div class="experience-card">
+<span class="experience-card__label">Exploratory</span>
+<h3>My AI Playground</h3>
+<p class="quote-line">“What can I explore, practise, test, or revisit today?”</p>
+<p>It can contain interactive demos, mini experiments, prompt labs, code examples, visual explanations, project sandboxes, reusable tools, and later, agentic workflows.</p>
+</div>
+</section>
+<section>
+<h3>Who AI Café is initially for</h3>
+<p>The first learner is <strong>you</strong>.</p>
+<p>This matters because the platform will be created from a genuine learning journey rather than from assumptions about learners.</p>
+<ol class="number-list">
+<li>Understand the subject.</li>
+<li>Build or test the demonstration.</li>
+<li>Identify where confusion occurs.</li>
+<li>Improve the explanation.</li>
+<li>Only then make it suitable for other learners.</li>
+</ol>
+<p>AI Café therefore becomes both your personal AI learning system and a future public learning product.</p>
+</section>
+<section>
+<h3>What problem it should solve</h3>
+<div class="problem-grid">
+<div><strong>Problem 1</strong><p>Many learning resources are too theoretical and difficult to connect.</p></div>
+<div><strong>Problem 2</strong><p>Others are tool-focused but do not explain what is happening underneath.</p></div>
+</div>
+<div class="flow-banner">Understand it → See it → Experiment with it → Build with it → Use it professionally</div>
+<p>Every meaningful topic should eventually provide an intuitive explanation, a visual representation, a worked example, an interactive demonstration, a small exercise, practical limitations, and a connection to the next topic.</p>
+</section>
+<section>
+<h3>Long-term vision</h3>
+<div class="timeline">
+<article><span>1</span><div><h4>Personal Learning Studio</h4><p>A structured place for your AI learning, notes, demonstrations, and experiments.</p></div></article>
+<article><span>2</span><div><h4>Public Learning Experience</h4><p>A polished portal using My AI Journey and My AI Playground.</p></div></article>
+<article><span>3</span><div><h4>Project and Career Studio</h4><p>Learners build portfolio projects, practical solutions, training material, and professional capabilities.</p></div></article>
+<article><span>4</span><div><h4>Agentic Learning Environment</h4><p>AI agents help learners choose the next lesson, explain difficult topics, generate practice exercises, review code, track progress, recommend projects, and support independent learning.</p></div></article>
+</div>
+<p class="callout">The agent should not control the learning experience. It should follow the structure, rules, and purpose defined through AI Café Mission Control.</p>
+</section>
+<section class="proposed-purpose">
+<p class="section-number">Proposed Purpose Statement</p>
+<h3>AI Café is a welcoming, practical, and progressively structured AI learning studio where people can understand concepts, explore interactive demonstrations, build real solutions, and grow from curious learners into confident AI practitioners.</h3>
+</section>
+<section>
+<h3>What T001 locks</h3>
+<div class="principles-grid">
+<article><h4>Learning before technology</h4><p>The website, animations, agents, and tools must support learning—not distract from it.</p></article>
+<article><h4>Guided and exploratory learning together</h4><p>My AI Journey and My AI Playground are equally important.</p></article>
+<article><h4>Simple first, deeper gradually</h4><p>A learner should be able to start easily and continue into serious technical depth.</p></article>
+<article><h4>Practical demonstration</h4><p>AI Café should show how something works, not only describe it.</p></article>
+<article><h4>Build manually before automating</h4><p>We first understand and define the work ourselves; agents take over only after the process is clear.</p></article>
+</div>
+</section>
+<section class="purpose-statement">
+<p class="section-number">Working Foundation</p>
+<h3>AI Café is a personal-first, public-ready AI learning and experimentation studio that combines structured learning, open exploration, interactive demonstrations, real projects, and eventually agent-assisted learning.</h3>
+</section>
+</article>
+</section><section aria-labelledby="learner-tab" class="tab-panel" hidden="" id="learner-panel" role="tabpanel" tabindex="0">
+<article class="content-card narration-source">
+<div class="section-heading">
+<p class="section-number">Tab 03</p>
+<h2>Define the Primary Learner</h2>
+<p>Who AI Café serves first, how that learner will learn, and how a personal journey can become a future public product.</p>
+</div>
+<section>
+<h3>Who AI Café is initially for</h3>
+<p class="lead">The first learner is <strong>you</strong>.</p>
+<p>AI Café begins as your personal environment for learning, experimenting with, and gradually mastering artificial intelligence.</p>
+<blockquote>The platform will be created from a genuine learning journey rather than from assumptions about what learners may need.</blockquote>
+</section>
+<section>
+<h3>The learning and improvement cycle</h3>
+<div aria-label="Primary learner improvement cycle" class="learner-cycle">
+<article><span>1</span><div><h4>Understand</h4><p>Study the subject and connect it with earlier knowledge.</p></div></article>
+<article><span>2</span><div><h4>Build or test</h4><p>Create or examine a practical demonstration.</p></div></article>
+<article><span>3</span><div><h4>Find confusion</h4><p>Notice where ideas, terminology, mathematics, code, or flow become unclear.</p></div></article>
+<article><span>4</span><div><h4>Improve</h4><p>Refine the explanation, example, visualisation, demonstration, or sequence.</p></div></article>
+<article><span>5</span><div><h4>Share responsibly</h4><p>Only then make the learning experience suitable for other learners.</p></div></article>
+</div>
+<p class="flow-banner">Understand → Build or test → Identify confusion → Improve → Make useful for others</p>
+</section>
+<section>
+<h3>The primary learner profile</h3>
+<div class="principles-grid">
+<article><h4>Experienced, but learning again</h4><p>Has technology or programming experience and is now connecting that foundation with modern AI.</p></article>
+<article><h4>Practical and curious</h4><p>Wants to understand how things work, not merely operate ready-made tools.</p></article>
+<article><h4>Comfortable revisiting foundations</h4><p>May need to return to mathematics, data, Python, machine learning, or software concepts without embarrassment.</p></article>
+<article><h4>Learning toward independence</h4><p>Wants to understand, evaluate, build, modify, and eventually work with AI confidently.</p></article>
+</div>
+</section>
+<section>
+<h3>What this learner needs</h3>
+<ul class="check-list two-column-list">
+<li>step-by-step explanations,</li>
+<li>simple language before deeper terminology,</li>
+<li>visual representations,</li>
+<li>working demonstrations,</li>
+<li>source code and guided experiments,</li>
+<li>real-world use cases,</li>
+<li>connections to earlier topics,</li>
+<li>space to pause and revisit,</li>
+<li>small exercises and projects,</li>
+<li>and a clear path toward independent application.</li>
+</ul>
+<p>AI Café should not force the learner into a single learning style. The same concept may need a simple explanation, a technical explanation, a picture, a demo, code, mathematics, or a real-world analogy.</p>
+</section>
+<section>
+<h3>Confusion is design information</h3>
+<p>Confusion is not treated as failure. It reveals where the learning experience needs improvement.</p>
+<div class="question-grid">
+<article>Which earlier concept is missing?</article>
+<article>Is the explanation too abstract?</article>
+<article>Would a visual or interactive demo help?</article>
+<article>Was terminology introduced too early?</article>
+<article>Is a simpler example needed first?</article>
+<article>Should the topic be divided into smaller steps?</article>
+</div>
+</section>
+<section>
+<h3>Understanding before completion</h3>
+<p>The goal is not merely to finish a page, topic, or course. A topic is meaningfully learned when the learner can:</p>
+<ul class="check-list">
+<li>explain it in their own words,</li>
+<li>connect it with earlier knowledge,</li>
+<li>understand why and where it is useful,</li>
+<li>build or modify a demonstration,</li>
+<li>recognise limitations and common failure points,</li>
+<li>and apply the idea with decreasing dependence on guidance.</li>
+</ul>
+</section>
+<section>
+<h3>The practical learning pattern</h3>
+<div class="learning-pattern">
+<article><span>Learn</span><p>Understand the idea and its purpose.</p></article>
+<article><span>Observe</span><p>See how it behaves through examples and visualisations.</p></article>
+<article><span>Experiment</span><p>Change inputs, compare outcomes, and investigate failures.</p></article>
+<article><span>Build</span><p>Create or adapt something that uses the concept.</p></article>
+</div>
+<p>AI Café should therefore combine explanations, visualisations, interactive demonstrations, coding experiments, guided exercises, mini projects, comparisons, quizzes, reflection points, and practical challenges.</p>
+</section>
+<section class="experience-grid">
+<div class="experience-card">
+<span class="experience-card__label">Guided mode</span>
+<h3>My AI Journey</h3>
+<p>Provides sequence, continuity, milestones, and an answer to “What should I learn next?”</p>
+</div>
+<div class="experience-card">
+<span class="experience-card__label">Exploration mode</span>
+<h3>My AI Playground</h3>
+<p>Provides freedom to revisit concepts, test demos, compare ideas, practise, and build small projects.</p>
+</div>
+</section>
+<section>
+<h3>From one learner to many</h3>
+<p>Although the first learner is you, the material can gradually become useful to experienced developers entering AI, technical trainers, career restarters, working professionals, beginners who need a guided sequence, and independent learners who want both structure and freedom.</p>
+<p class="callout">AI Café should not try to serve every possible audience at the beginning. First make the journey genuinely useful for the primary learner; then generalise what works.</p>
+</section>
+<section>
+<h3>The intended transformation</h3>
+<div class="transformation">Confusion <span>→</span> Clarity <span>→</span> Experimentation <span>→</span> Capability <span>→</span> Independence</div>
+<p>The desired outcome is not awareness of AI terminology. The learner should become able to understand, evaluate, build, and improve AI-based solutions.</p>
+</section>
+<section class="proposed-purpose">
+<p class="section-number">Primary Learner Principle</p>
+<h3>Learn it personally. Test it practically. Improve it honestly. Share it only when it becomes genuinely useful.</h3>
+</section>
+<section class="purpose-statement">
+<p class="section-number">What this establishes</p>
+<h3>AI Café is both your personal AI learning and experimentation system and a future public learning product shaped by a real learner’s journey.</h3>
+</section>
+</article>
+</section><section aria-labelledby="secondary-learner-tab" class="tab-panel" hidden="" id="secondary-learner-panel" role="tabpanel" tabindex="0">
+<article class="content-card narration-source">
+<div class="section-heading">
+<p class="section-number">Tab 04</p>
+<h2>Define the Secondary Learner</h2>
+<p>Who AI Café can support after the personal learning experience has been tested and improved.</p>
+</div>
+<section>
+<h3>Who AI Café is eventually for</h3>
+<p class="lead">The secondary learner is anyone who wants to understand and use AI but may not know where to begin.</p>
+<p>AI Café will first be created through a genuine personal learning journey. Once a topic has been understood, tested, simplified, and improved, it can be adapted for other learners.</p>
+<div class="principles-grid">
+<article><h4>Beginner</h4><p>Exploring AI for the first time and needing a clear starting point.</p></article>
+<article><h4>Working professional</h4><p>Trying to use AI effectively in a current role.</p></article>
+<article><h4>Developer or trainer</h4><p>Moving into AI or needing practical explanations and demonstrations.</p></article>
+<article><h4>Student, manager, or career changer</h4><p>Seeking practical understanding without unnecessary complexity.</p></article>
+</div>
+</section>
+<section>
+<h3>What this learner may be experiencing</h3>
+<ul class="check-list two-column-list">
+<li>knowing individual AI terms without seeing how they connect,</li>
+<li>watching tutorials without building anything,</li>
+<li>feeling overwhelmed by tools, courses, and rapid change,</li>
+<li>understanding theory but struggling to apply it,</li>
+<li>using AI tools without understanding what happens underneath,</li>
+<li>being unsure where to start or what to learn next,</li>
+<li>needing to revisit topics several times,</li>
+<li>and fitting learning around work, family, or other responsibilities.</li>
+</ul>
+<blockquote>AI Café should make this learner feel that confusion is normal and that meaningful learning can happen gradually.</blockquote>
+</section>
+<section>
+<h3>What the secondary learner needs</h3>
+<div class="feature-grid">
+<article>A clear starting point</article>
+<article>Small, manageable learning steps</article>
+<article>Plain-language explanations</article>
+<article>Visual demonstrations</article>
+<article>Practical experiments</article>
+<article>Real-world examples</article>
+<article>Freedom to revisit concepts</article>
+<article>A path toward independent work</article>
+</div>
+</section>
+<section class="experience-grid">
+<div class="experience-card">
+<span class="experience-card__label">Guided experience</span>
+<h3>My AI Journey</h3>
+<p>For learners who want a progressive sequence, connected concepts, exercises, projects, progress tracking, and a clear answer to “What should I learn next?”</p>
+</div>
+<div class="experience-card">
+<span class="experience-card__label">Open experience</span>
+<h3>My AI Playground</h3>
+<p>For learners who want to open any topic, try demonstrations, compare approaches, revisit ideas, and explore according to curiosity or an immediate work need.</p>
+</div>
+</section>
+<section>
+<h3>From the primary learner to the secondary learner</h3>
+<div aria-label="Primary to secondary learner flow" class="learner-cycle">
+<article><span>1</span><div><h4>Learn personally</h4><p>Understand the subject through a real learning journey.</p></div></article>
+<article><span>2</span><div><h4>Build or test</h4><p>Create a demonstration, example, or experiment.</p></div></article>
+<article><span>3</span><div><h4>Find weak points</h4><p>Identify confusion, missing context, and unclear explanations.</p></div></article>
+<article><span>4</span><div><h4>Improve the experience</h4><p>Refine the sequence, visuals, examples, and language.</p></div></article>
+<article><span>5</span><div><h4>Adapt for others</h4><p>Make the proven learning experience useful to people with different backgrounds.</p></div></article>
+</div>
+<p class="flow-banner">Real learning → Practical testing → Honest improvement → Responsible sharing</p>
+</section>
+<section>
+<h3>Different learners, different depths</h3>
+<p>Every learner does not need the same level of detail. AI Café should support progressive depth so someone may choose to:</p>
+<ul class="check-list two-column-list">
+<li>understand the basic idea,</li>
+<li>see a simple demonstration,</li>
+<li>use an AI tool effectively,</li>
+<li>understand the technical process,</li>
+<li>build a working solution,</li>
+<li>study production architecture,</li>
+<li>or work with AI agents and automated workflows.</li>
+</ul>
+</section>
+<section>
+<h3>The desired learner transformation</h3>
+<div class="transformation">Confusion <span>→</span> Clarity <span>→</span> Experimentation <span>→</span> Building <span>→</span> Independence</div>
+<p>The objective is not merely to help someone finish lessons. The learner should gradually become able to ask better questions, select suitable tools, test AI-generated output, debug failures, improve solutions, and continue learning independently.</p>
+</section>
+<section>
+<h3>Initial secondary learner priority</h3>
+<p>AI Café should not attempt to serve every possible learner from the beginning. The first public learner should closely resemble the primary learner:</p>
+<ul class="check-list">
+<li>some technology or professional experience,</li>
+<li>an interest in practical AI,</li>
+<li>a preference for step-by-step and visual learning,</li>
+<li>a desire to connect concepts with useful projects,</li>
+<li>and a willingness to experiment.</li>
+</ul>
+<p class="callout">Begin with one clearly defined learner group. Expand only after the core learning experience becomes stable and genuinely useful.</p>
+</section>
+<section class="proposed-purpose">
+<p class="section-number">Secondary Learner Principle</p>
+<h3>Respect the learner. Treat questions as valid, confusion as part of learning, repetition as useful, and practical understanding as more valuable than memorising terminology.</h3>
+</section>
+<section class="purpose-statement">
+<p class="section-number">Working Definition</p>
+<h3>The secondary learner is a curious beginner, professional, developer, trainer, student, manager, or career changer who wants to understand AI through clear explanations, guided learning, practical experimentation, and small real-world projects—until they can learn and work with AI increasingly independently.</h3>
+</section>
+</article>
+</section><section aria-labelledby="value-tab" class="tab-panel" hidden="" id="value-panel" role="tabpanel" tabindex="0">
+<article class="content-card narration-source">
+<div class="section-heading">
+<p class="section-number">Tab 05</p>
+<h2>Write the One-Line Value Proposition</h2>
+<p>The clear value AI Café promises to every learner.</p>
+</div>
+<section aria-labelledby="value-proposition-statement" class="value-hero">
+<p class="section-number">Our Core Promise</p>
+<h3 id="value-proposition-statement">AI Café helps curious learners understand, experiment with, and build using AI—step by step, without fear, until they can work with it independently.</h3>
+</section>
+<section>
+<h3>What this means for the learner</h3>
+<div class="value-grid">
+<article>
+<span aria-hidden="true" class="value-icon">01</span>
+<h4>Understand AI clearly</h4>
+<p>Complex ideas are explained in simple, connected steps so learners understand not only what to do, but also why it works.</p>
+</article>
+<article>
+<span aria-hidden="true" class="value-icon">02</span>
+<h4>Experiment without fear</h4>
+<p>Learners can try ideas, make mistakes, revisit concepts, and improve through a safe and encouraging learning environment.</p>
+</article>
+<article>
+<span aria-hidden="true" class="value-icon">03</span>
+<h4>See concepts in action</h4>
+<p>Visual explanations, interactive demonstrations, worked examples, and prompt or code labs make abstract AI concepts tangible.</p>
+</article>
+<article>
+<span aria-hidden="true" class="value-icon">04</span>
+<h4>Build practical things</h4>
+<p>Small exercises and real projects help learners convert knowledge into useful skills, solutions, and portfolio-ready work.</p>
+</article>
+<article>
+<span aria-hidden="true" class="value-icon">05</span>
+<h4>Learn in the way that suits them</h4>
+<p><strong>My AI Journey</strong> offers a guided path, while <strong>My AI Playground</strong> supports free exploration, practice, and discovery.</p>
+</article>
+<article>
+<span aria-hidden="true" class="value-icon">06</span>
+<h4>Become confident and independent</h4>
+<p>The goal is not permanent dependence on lessons or tools, but the ability to choose, evaluate, build, and work with AI independently.</p>
+</article>
+</div>
+</section>
+<section>
+<h3>The transformation AI Café creates</h3>
+<div aria-label="Learner transformation path" class="transformation-path">
+<span>Curious learner</span>
+<b aria-hidden="true">→</b>
+<span>Clear understanding</span>
+<b aria-hidden="true">→</b>
+<span>Confident experimentation</span>
+<b aria-hidden="true">→</b>
+<span>Practical building</span>
+<b aria-hidden="true">→</b>
+<span>Independent AI practitioner</span>
+</div>
+</section>
+<section class="value-summary">
+<h3>Why AI Café is different</h3>
+<p>AI Café is not merely a course portal, a collection of articles, or a directory of AI tools. It brings together structured learning, open exploration, visual understanding, hands-on experimentation, practical creation, and gradual independence within one welcoming environment.</p>
+</section>
+</article>
+</section><section aria-labelledby="release-one-tab" class="tab-panel" hidden="" id="release-one-panel" role="tabpanel" tabindex="0">
+<article class="content-card narration-source">
+<div class="section-heading">
+<p class="section-number">Tab 06</p>
+<h2>List Release 1 Inclusions</h2>
+<p>The first working release of AI Café: a clear, responsive static learning website built on the foundations already created.</p>
+</div>
+<section class="release-outcome">
+<p class="section-number">Release Outcome</p>
+<h3>At the end of Release 1, learners can understand AI Café, choose how they want to learn, and access the existing AI learning content.</h3>
+</section>
+<section>
+<h3>Release 1 inclusions</h3>
+<div class="release-grid">
+<article>
+<span class="release-number">01</span>
+<div><h4>AI Café Landing Page</h4><ul><li>Clear introduction to AI Café</li><li>Prominent value proposition</li><li>Animated black-and-white AI Café logo</li><li>Responsive desktop and mobile layout</li></ul></div>
+</article>
+<article>
+<span class="release-number">02</span>
+<div><h4>My AI Journey Entry</h4><ul><li>Entry point for the structured learning path</li><li>Brief explanation of guided learning</li><li>Initial learning-track or topic cards</li><li>Links to existing AI, ML, and LLM learning pages</li></ul></div>
+</article>
+<article>
+<span class="release-number">03</span>
+<div><h4>My AI Playground Entry</h4><ul><li>Entry point for open exploration</li><li>Access to demonstrations, experiments, and completed pages</li><li>Simple categorisation of available resources</li></ul></div>
+</article>
+<article>
+<span class="release-number">04</span>
+<div><h4>Project Purpose Section</h4><ul><li>Our Purpose</li><li>Primary Learner</li><li>Secondary Learner</li><li>AI Café Value Proposition</li><li>Page Blueprint or implementation reference</li></ul></div>
+</article>
+<article>
+<span class="release-number">05</span>
+<div><h4>Existing Content Integration</h4><p>Connect the current GitHub Pages learning content, including Tokens, Embeddings, Sequence Learning, Attention, Transformer, Pretraining, Prompting, RAG, Tool Calling, and Agents.</p></div>
+</article>
+<article>
+<span class="release-number">06</span>
+<div><h4>Basic Navigation</h4><ul><li>Home</li><li>My AI Journey</li><li>My AI Playground</li><li>Project Purpose</li><li>Clear back-navigation between pages</li></ul></div>
+</article>
+<article>
+<span class="release-number">07</span>
+<div><h4>Shared Visual Experience</h4><ul><li>Consistent header, navigation, typography, and cards</li><li>Light and Dark modes</li><li>Responsive navigation</li><li>Basic accessibility and readable contrast</li></ul></div>
+</article>
+<article>
+<span class="release-number">08</span>
+<div><h4>Repository and Deployment</h4><ul><li>Organised task-wise project folders</li><li>Git and GitHub repository</li><li>GitHub Pages deployment</li><li>Basic README and project structure documentation</li></ul></div>
+</article>
+</div>
+</section>
+</article>
+</section><section aria-labelledby="release-one-exclusions-tab" class="tab-panel" hidden="" id="release-one-exclusions-panel" role="tabpanel" tabindex="0">
+<article class="content-card narration-source">
+<div class="section-heading">
+<p class="section-number">Tab 07</p>
+<h2>List Release 1 Exclusions</h2>
+<p>The capabilities intentionally deferred so Release 1 remains a focused, achievable front-end foundation.</p>
+</div>
+<section class="exclusions-outcome">
+<p class="section-number">Scope Boundary</p>
+<h3>Release 1 establishes the AI Café experience and connects existing learning content. It does not yet attempt to become a complete learning-management, agentic, community, or commercial platform.</h3>
+</section>
+<section>
+<h3>Release 1 exclusions</h3>
+<div class="exclusions-grid">
+<article><span class="exclusion-number">01</span><div><h4>Learner Accounts and Login</h4><ul><li>User registration and authentication</li><li>Individual learner profiles</li><li>Account and password management</li></ul></div></article>
+<article><span class="exclusion-number">02</span><div><h4>Progress Tracking</h4><ul><li>Course-completion percentages</li><li>Learning history and bookmarks</li><li>Achievements, badges, and certificates</li></ul></div></article>
+<article><span class="exclusion-number">03</span><div><h4>Personalised Learning</h4><ul><li>AI-generated learning paths</li><li>Personal recommendations</li><li>Adaptive lessons based on learner performance</li></ul></div></article>
+<article><span class="exclusion-number">04</span><div><h4>Backend Services and Databases</h4><ul><li>Server-side application services</li><li>Cloud databases and user-data storage</li><li>Administrative backend systems</li></ul></div></article>
+<article><span class="exclusion-number">05</span><div><h4>Live AI Assistants or Agents</h4><ul><li>AI tutors</li><li>Autonomous coding or research agents</li><li>Multi-agent workflows</li></ul></div></article>
+<article><span class="exclusion-number">06</span><div><h4>Automated Content Creation</h4><ul><li>Agent-generated lessons</li><li>Automatic demonstration generation</li><li>Automatic publishing or content updates</li></ul></div></article>
+<article><span class="exclusion-number">07</span><div><h4>Public Learning-Platform Features</h4><ul><li>Large-scale learner onboarding</li><li>Community discussions, comments, ratings, and reviews</li><li>Instructor and learner management</li></ul></div></article>
+<article><span class="exclusion-number">08</span><div><h4>Project and Career Studio</h4><ul><li>Portfolio management</li><li>Career-roadmap generation and job matching</li><li>Client or commercial project management</li></ul></div></article>
+<article><span class="exclusion-number">09</span><div><h4>Payments and Commercial Features</h4><ul><li>Subscriptions and course purchases</li><li>Payment gateways</li><li>Pricing plans and membership tiers</li></ul></div></article>
+<article><span class="exclusion-number">10</span><div><h4>Advanced Analytics and Administration</h4><ul><li>Learner analytics dashboards</li><li>Content-performance reporting</li><li>Role-based and enterprise administration</li></ul></div></article>
+<article><span class="exclusion-number">11</span><div><h4>Native Mobile Applications</h4><ul><li>Android and iOS applications</li><li>App-store packaging and publishing</li></ul></div></article>
+<article><span class="exclusion-number">12</span><div><h4>Complete Redesign of Existing Learning Pages</h4><ul><li>Release 1 connects selected existing AI learning content</li><li>Full visual and structural standardisation will happen progressively</li></ul></div></article>
+</div>
+</section>
+<section class="exclusions-summary">
+<h3>Release 1 remains deliberately focused</h3>
+<p>It delivers a responsive AI Café front-end, introduces the project purpose, provides entry into <strong>My AI Journey</strong> and <strong>My AI Playground</strong>, connects existing learning content, and establishes shared navigation and visual identity.</p>
+</section>
+</article>
+</section></section>
+</main>
+<footer class="site-footer">
+<div class="container footer-grid">
+<div>
+<p class="eyebrow">AI Café Mission Control</p>
+<h2>T001 — AI Café Project Purpose</h2>
+</div>
+<div class="footer-meta">
+<p><strong>Status:</strong> Confirmed</p>
+<p><strong>Maintainer:</strong> AI Café Team</p>
+<p><strong>Next:</strong> T002 — Create AI Café Logo</p>
+</div>
+</div>
+</footer>
+<div aria-live="polite" class="audio-status" id="audio-status">Audio ready</div>
+<script src="js/app.js?v=1.7"></script>
+<script src="js/audio.js"></script>
 </body>
 </html>
